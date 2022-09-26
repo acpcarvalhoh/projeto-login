@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/mobile.css">
     <link rel="stylesheet" href="styles/global.css" media="all">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Login</title>
 </head>
 <body>
@@ -20,8 +21,36 @@
                     Seja bem vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.
                 </p>
 
-                <form action="" method="post">
+                <form action="" method="post" autocomplete="on">
+                    <div class="form-mail">
+                        <span class="material-symbols-outlined">person</span>
+                        <input
+                           id="ilogin"
+                           type="email"
+                           placeholder="Digite seu email"
+                           name="email"
+                           autocomplete="email"
+                           required
+                           maxlength="30"
+                        >
+                        <label for="ilogin">Login</label>
+                    </div>
 
+                    <div class="form-password">
+                        <span class="material-symbols-outlined">vpn_key</span>
+                        <input
+                          id="isenha"
+                          type="email"
+                          placeholder="Digite sua senha"
+                          name="password"
+                          required
+                          minlength="6"
+                          max="10"
+                        >
+                        <label for="isenha">Senha</label>
+                    </div>
+
+                    <input type="submit" value="Entrar">
                 </form>
             </div>
         </section>
