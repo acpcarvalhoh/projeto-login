@@ -29,7 +29,7 @@ main{
 
 section#login{
     background-color: aliceblue;
-    width: 280px;
+    width: 290px;
     height: 500px;
     border-radius: 10px;
     overflow: hidden;
@@ -59,18 +59,53 @@ div#form p{
 }
 
 .form-mail{
-    margin: 10px 0px;
+    margin-top: 10px;
     display: flex;
     align-items: center;
     gap: 5px;
+
+    background-color: #602c82b9;
+    border-radius: 5px;
+    padding: 3px;
     
 }
 
 .form-password{
-    margin: 10px 0px;
+    margin: 2px 0px;
     display: flex;
     align-items: center;
     gap: 5px;
+
+    background-color: #602c82b9;
+    border-radius: 5px;
+    padding: 3px;
     
+}
+
+#ilogin{
+    padding: 8px 0px;
+}
+
+#isenha{
+    padding: 8px 0px;
+}
+
+
+.button{
+    font-size: 1em;
+    width: 100%;
+    padding: 10px;
+    background-color: #49A09D;
+    color: #fff;
+    font-weight: bolder;
+    border-radius: 5px;
+
+    border: none;
+    cursor: pointer;
+    
+}
+
+.button:hover{
+    background-color: #21706efc;
 }
 
