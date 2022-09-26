@@ -47,6 +47,8 @@
         background-image: linear-gradient(to top, #49A09D, #5F2C82);
     }
 
+
+
     section#login{
         width: 950px;
         display: flex;
@@ -58,6 +60,9 @@
         width: 70%;
         height: 100%;
         background-size: cover;
+        background-position: center center;
+        transform: rotate(180deg);
+        background-repeat: no-repeat;
     }
 
     div#image{

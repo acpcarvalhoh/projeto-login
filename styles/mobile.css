@@ -28,7 +28,7 @@ main{
 }
 
 section#login{
-    background-color: aliceblue;
+    background-color: rgb(240, 248, 255);
     width: 290px;
     height: 500px;
     border-radius: 10px;
@@ -40,9 +40,11 @@ section#login{
 }
 
 section #image{
-    background: #5F2C82 url(../images/bg-screen.jpg);
-    height: 200px;
+    background: #5F2C82 url(https://images.pexels.com/photos/1705254/pexels-photo-1705254.jpeg?auto=compress&cs=tinysrgb&w=600);
+    height: 180px;
     background-size: cover;
+
+
 }
 
 section #form{
@@ -107,5 +109,16 @@ div#form p{
 
 .button:hover{
     background-color: #21706efc;
+}
+
+p{
+    text-align: center;
+    margin-top: 15px;
+    color: #000000bf;
+}
+
+p a{
+    text-decoration: none;
+    color: rgb(35, 122, 251);
 }
 
