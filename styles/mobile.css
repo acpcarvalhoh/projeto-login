@@ -85,35 +85,36 @@ div#form p{
     
 }
 
+
+
 span{
     color: #fff;
-    font-size: 4em;
+    font-size: 2em;
     padding: 5px;
 }
 
 label{
     display: none;
-}
+} 
 
-#ilogin{
+#ilogin, #isenha{
     padding: 8px 0px;
     background-color: #befffd;
     border: none;
     font-size: 1em;
     width: 100%;
     border-radius: 5px;
+}
 
+#ilogin:focus{
+    background-color: #fff;
+    padding-left: 3px;
     
 }
 
-#isenha{
-    padding: 8px 0px;
-    background-color: #befffd;
-    border: none;
-    font-size: 1em;
-    width: 100%;
-    border-radius: 5px;
-
+#isenha:focus{
+    background-color: #fff;
+    padding-left: 3px;
 }
 
 
