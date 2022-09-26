@@ -68,7 +68,7 @@ div#form p{
 
     background-color: #602c82b9;
     border-radius: 5px;
-    padding: 3px;
+    padding: 2px;
     
 }
 
@@ -80,16 +80,40 @@ div#form p{
 
     background-color: #602c82b9;
     border-radius: 5px;
-    padding: 3px;
+    padding: 2px;
     
+    
+}
+
+span{
+    color: #fff;
+    font-size: 4em;
+    padding: 5px;
+}
+
+label{
+    display: none;
 }
 
 #ilogin{
     padding: 8px 0px;
+    background-color: #befffd;
+    border: none;
+    font-size: 1em;
+    width: 100%;
+    border-radius: 5px;
+
+    
 }
 
 #isenha{
     padding: 8px 0px;
+    background-color: #befffd;
+    border: none;
+    font-size: 1em;
+    width: 100%;
+    border-radius: 5px;
+
 }
 
 
